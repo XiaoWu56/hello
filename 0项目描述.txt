@@ -1,0 +1,9 @@
+﻿项目名称：数据管理平台（仿金数据平台）
+技术选择：Vue+Springboot+ElementUI                        
+项目描述：本项目结构上分为表现层、业务层和数据访问层。页面采用Vue技术，后台使用Mybatis，Spring的MVC架构。该项目主要是完成数据管理平台的开发，该系统分为首页、表单创建、表单发布、表单数据管理、表单管理5个模块。
+
+项目列表组成：
+Vue-src：存放vue代码。在/Vue-src/views/目录下含home.vue首页，form.vue表单页，data.vue数据页等信息。
+src：存放后端代码。在/src/main/java/com/spring/boot/main/controller/目录下含
+QuestionDatainfoController.java数据操作文件，QuestionDetailinfoController.java表单明细操作文件，QuestioninfoController.java表单操作文件等信息。
+
